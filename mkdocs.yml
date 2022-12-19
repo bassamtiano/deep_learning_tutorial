@@ -1,3 +1,14 @@
 site_name: My Docs
+
 theme:
   name: material
+
+plugins:
+  - mkdocs-jupyter:
+      include_source: True
+
+edit_uri: ""
+
+nav:
+  - Home: 'index.md'
+  - 01. Neural Network: '01_neural_network.ipynb'
